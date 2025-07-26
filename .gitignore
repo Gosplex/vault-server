@@ -48,3 +48,6 @@ cloudinary.json
 *.tgz
 *.zip
 *.pem
+
+
+vault-45605-firebase-adminsdk-fbsvc-5f971ccde3.json
