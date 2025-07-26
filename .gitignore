@@ -1,0 +1,50 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Logs
+logs
+*.log
+log.txt
+debug.log
+*.pid
+*.seed
+
+# Build output
+.next/
+out/
+dist/
+build/
+
+# Env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Firebase
+firebase-debug.log
+firebase.json
+
+# Coverage
+coverage/
+
+# Cloudinary auto-generated files
+cloudinary.json
+
+# Misc
+*.tgz
+*.zip
+*.pem

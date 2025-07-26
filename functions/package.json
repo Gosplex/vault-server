@@ -1,0 +1,33 @@
+{
+  "name": "functions",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "lib/index.js",
+  "dependencies": {
+    "@types/nodemailer": "^6.4.14",
+    "firebase-admin": "^11.11.0",
+    "firebase-functions": "^4.5.0",
+    "nodemailer": "^6.9.7",
+    "twilio": "^4.19.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.32.0",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "globals": "^16.3.0",
+    "jiti": "^2.5.1",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0"
+  },
+  "private": true
+}
