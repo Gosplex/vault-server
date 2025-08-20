@@ -90,7 +90,7 @@ TWILIO_PHONE_NUMBER=your_twilio_phone_number
 
 1. **Clone the repository**
    ```bash
-   git clone [<your-repo-url>](https://github.com/Gosplex/vault-server.git)
+   git clone https://github.com/Gosplex/vault-server.git
    cd vault-server
    ```
 
